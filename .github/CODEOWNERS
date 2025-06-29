@@ -1,0 +1,18 @@
+# Global code owner for vite-mode-logging
+# All files and directories require approval from @Rob-P-Smith
+
+* @Rob-P-Smith
+
+# Specific ownership for critical files
+package.json @Rob-P-Smith
+README.md @Rob-P-Smith
+src/ @Rob-P-Smith
+bin/ @Rob-P-Smith
+
+# Documentation
+*.md @Rob-P-Smith
+
+# Configuration files
+*.json @Rob-P-Smith
+*.ts @Rob-P-Smith
+*.js @Rob-P-Smith
