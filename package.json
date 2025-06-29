@@ -1,0 +1,47 @@
+{
+  "name": "vite-mode-logging",
+  "version": "1.0.0",
+  "description": "Mode-based logging system for Vite projects with automatic setup",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "vite-logging-init": "./bin/init.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "src/templates",
+    "README.md"
+  ],
+  "keywords": [
+    "vite",
+    "logging",
+    "debug",
+    "development",
+    "mode-based",
+    "console",
+    "typescript"
+  ],
+  "author": "Robert Smith",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vite-mode-logging.git"
+  },
+  "peerDependencies": {
+    "vite": ">=4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
